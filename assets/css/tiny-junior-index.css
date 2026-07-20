@@ -53,7 +53,7 @@ body {
 .tiny-container-extra {
      box-shadow: 0 0 10px 5px #2e7d32;
 }
-body {
+.tiny-explorer {
     background-image: url(../images/backgrounds/tiny-background.png);
     background-size: cover;
     background-repeat: no-repeat;
