@@ -245,7 +245,7 @@ scoreBoard.textContent =
             wrongSound.currentTime = 0;
             wrongSound.play();
 
-            alert("Try Again!");
+            showAlert("✖️ Oops! Try Again!");
 
         }
 
@@ -287,3 +287,12 @@ nextButton.addEventListener("click",function(){
 // ======================================
 
 loadChain(currentChain);
+// Wrong Answer
+function showAlert(message) {
+    document.getElementById("alertText").textContent = message;
+    document.getElementById("customAlert").style.display = "flex";
+}
+
+function closeAlert() {
+    document.getElementById("customAlert").style.display = "none";
+}

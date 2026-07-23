@@ -7,7 +7,7 @@
   max-height: 120px;
   color: #000;
   display: flex;
-  flex: 0.2 0 350px;
+  flex: 0 0 250px;
   flex-direction: column;
   align-items: center;
   margin: 20px;
@@ -58,4 +58,10 @@
 }
 a {
     text-decoration: none;
+}
+.extra {
+flex-grow: 0.5;
+}
+.space {
+  flex-grow: 0.3;
 }
